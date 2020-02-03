@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Repos from GitHub</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="medium-container">
+            <h1>Searching Repository From GitHub:</h1>
+            <h5>e.g. <code>user/repositoryName</code> </h5>
+        </div>
+    </header>
+    <main>
+        <div class="medium-container">
+            <form id="repo-form">
+                <input type="text" name="repository">
+                <button type="submit">Add</button>
+            </form>
+        </div>
+        <div class="medium-container">
+            <ul id="repo-list"></ul>
+        </div>
+    </main>
+    <script src="./bundle.js"></script>
+</body>
+</html>
