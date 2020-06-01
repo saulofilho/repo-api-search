@@ -1,4 +1,4 @@
 GitHub Repo Search API, Tutorial
 =============================
 
-https://search-git-repo.netlify.com/
+https://repo-api-search.now.sh/
